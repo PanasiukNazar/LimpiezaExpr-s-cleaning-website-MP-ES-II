@@ -250,6 +250,7 @@
 /*** Service ***/
 .service-item-top img {
     transition: 0.5s;
+    height: 300px !important;
 }
 
 .service-item-top:hover img {
