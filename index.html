@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>LimpiezaExprs</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-light d-none d-lg-block">
+            <div class="row align-items-center top-bar">
+                <div class="col-lg-3 col-md-12 text-center text-lg-start">
+                    <a href="" class="navbar-brand m-0 p-0">
+                        <h1 class="text-primary m-0">LimpiezaExprs</h1>
+                    </a>
+                </div>
+                <div class="col-lg-9 col-md-12 text-end">
+                    <div class="h-100 d-inline-flex align-items-center me-4">
+                        <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                        <p class="m-0">
+                            Albert Camus 70, Jardines Vallarta, 45027 Zapopan,
+                            Jal., Mexico
+                        </p>
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center me-4">
+                        <i class="far fa-envelope-open text-primary me-2"></i>
+                        <p class="m-0">limpieza_expr@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-bar bg-light">
+            <nav
+                class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4"
+            >
+                <a
+                    href=""
+                    class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none"
+                >
+                    <h1 class="text-primary m-0">LimpiezaExprs</h1>
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav me-auto">
+                        <a href="index.html" class="nav-item nav-link active"
+                            >Inicio</a
+                        >
+                        <a href="about.html" class="nav-item nav-link"
+                            >Sobre Nosotros</a
+                        >
+                        <a href="service.html" class="nav-item nav-link"
+                            >Servicios</a
+                        >
+                        <a href="testimonial.html" class="nav-item nav-link"
+                            >Testimonios</a
+                        >
+                        <a href="contact.html" class="nav-item nav-link"
+                            >Contacto</a
+                        >
+                    </div>
+                    <div
+                        class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center"
+                    >
+                        <div
+                            class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
+                            style="width: 45px; height: 45px"
+                        >
+                            <i class="fa fa-phone-alt text-primary"></i>
+                        </div>
+                        <div class="ms-3">
+                            <p class="mb-1 text-white">Emergencia 24/7</p>
+                            <h5 class="m-0 text-secondary">+523314837666</h5>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 mb-5">
+            <div class="owl-carousel header-carousel position-relative">
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-1.jpg" alt="" />
+                    <div
+                        class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                        style="background: rgba(0, 0, 0, 0.4)"
+                    >
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h5
+                                        class="text-white text-uppercase mb-3 animated slideInDown"
+                                    >
+                                        Transformación Total
+                                    </h5>
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Limpieza Premium de Muebles
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-2"
+                                    >
+                                        En nuestra tintorería de muebles en
+                                        México, ofrecemos un servicio de
+                                        limpieza en seco que restaura la belleza
+                                        original de tus muebles. Utilizamos
+                                        técnicas avanzadas y productos de alta
+                                        calidad para asegurar un acabado
+                                        impecable y duradero.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-2.jpg" alt="" />
+                    <div
+                        class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                        style="background: rgba(0, 0, 0, 0.4)"
+                    >
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h5
+                                        class="text-white text-uppercase mb-3 animated slideInDown"
+                                    >
+                                        Revitaliza tus Alfombras
+                                    </h5>
+                                    <h1
+                                        class="display-3 text-white animated slideInDown mb-4"
+                                    >
+                                        Limpieza en Seco de Alfombras
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-2"
+                                    >
+                                        Dale nueva vida a tus alfombras con
+                                        nuestra limpieza en seco especializada.
+                                        Nuestro equipo está capacitado para
+                                        eliminar manchas y olores, garantizando
+                                        que tus alfombras queden frescas y como
+                                        nuevas sin dañar los tejidos delicados.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Service Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div
+                        class="col-lg-4 col-md-6 service-item-top wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="overflow-hidden">
+                            <img
+                                class="img-fluid w-100 h-100"
+                                src="img/service-1.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div
+                            class="d-flex align-items-center justify-content-between bg-light p-4"
+                        >
+                            <h5 class="text-truncate me-3 mb-0">
+                                Expertos en el Cuidado de Muebles
+                            </h5>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 service-item-top wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="overflow-hidden">
+                            <img
+                                class="img-fluid w-100 h-100"
+                                src="img/service-2.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div
+                            class="d-flex align-items-center justify-content-between bg-light p-4"
+                        >
+                            <h5 class="text-truncate me-3 mb-0">
+                                Tecnología de Última Generación
+                            </h5>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 service-item-top wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="overflow-hidden">
+                            <img
+                                class="img-fluid w-100 h-100"
+                                src="img/service-3.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div
+                            class="d-flex align-items-center justify-content-between bg-light p-4"
+                        >
+                            <h5 class="text-truncate me-3 mb-0">
+                                Compromiso con la Calidad
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="mb-4">
+                            Compromiso con la Excelencia en Limpieza
+                        </h1>
+                        <p class="mb-4">
+                            En nuestra tintorería de muebles en México,
+                            adoptamos un enfoque integral para ofrecer la mejor
+                            limpieza en seco de alfombras y muebles. Nuestro
+                            proceso comienza con una evaluación detallada de
+                            cada pieza, identificando el tipo de tejido y las
+                            necesidades específicas para aplicar el tratamiento
+                            adecuado. Utilizamos tecnologías avanzadas y
+                            productos especializados que garantizan una limpieza
+                            profunda sin comprometer la calidad de los
+                            materiales. Nuestro equipo altamente capacitado se
+                            dedica a mantener los estándares más altos,
+                            asegurando que cada artículo reciba el cuidado que
+                            merece. Desde la eliminación de manchas difíciles
+                            hasta la eliminación de olores persistentes, nuestro
+                            objetivo es devolver a tus muebles y alfombras su
+                            apariencia y frescura originales, al tiempo que
+                            prolongamos su vida útil. Nuestro compromiso con la
+                            excelencia y la satisfacción del cliente es la base
+                            de nuestro enfoque, brindando resultados que superan
+                            las expectativas y garantizando un servicio
+                            excepcional en cada proyecto.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 pt-4" style="min-height: 500px">
+                        <div
+                            class="position-relative h-100 wow fadeInUp"
+                            data-wow-delay="0.5s"
+                        >
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/approach.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Fact Start -->
+        <div class="container-fluid fact bg-dark my-5 py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div
+                        class="col-md-6 col-lg-3 text-center wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <i class="fa fa-check fa-2x text-white mb-3"></i>
+                        <h2 class="text-white mb-2" data-toggle="counter-up">
+                            12
+                        </h2>
+                        <p class="text-white mb-0">Años de Experiencia</p>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-3 text-center wow fadeIn"
+                        data-wow-delay="0.3s"
+                    >
+                        <i class="fa fa-users-cog fa-2x text-white mb-3"></i>
+                        <h2 class="text-white mb-2" data-toggle="counter-up">
+                            34
+                        </h2>
+                        <p class="text-white mb-0">Técnicos Expertos</p>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-3 text-center wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <i class="fa fa-users fa-2x text-white mb-3"></i>
+                        <h2 class="text-white mb-2" data-toggle="counter-up">
+                            2940
+                        </h2>
+                        <p class="text-white mb-0">Clientes Satisfechos</p>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-3 text-center wow fadeIn"
+                        data-wow-delay="0.7s"
+                    >
+                        <i class="fa fa-wrench fa-2x text-white mb-3"></i>
+                        <h2 class="text-white mb-2" data-toggle="counter-up">
+                            450
+                        </h2>
+                        <p class="text-white mb-0">Proyectos Completados</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fact End -->
+
+        <!-- Team Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h1>Profesionales Dedicados al Cuidado de Tus Bienes</h1>
+                    <p class="mb-5">
+                        En nuestra tintorería de muebles en México, contamos con
+                        un equipo altamente cualificado que se especializa en la
+                        limpieza en seco de alfombras y muebles. Cada miembro de
+                        nuestro equipo aporta una combinación de experiencia,
+                        habilidad y compromiso con la excelencia, asegurando que
+                        tus artículos reciban el mejor cuidado posible.
+                        Trabajamos con pasión para ofrecer resultados
+                        excepcionales y superar las expectativas de nuestros
+                        clientes.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="team-item">
+                            <div class="position-relative overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="team-text">
+                                <div class="bg-light">
+                                    <h5 class="fw-bold mb-0">Ana Martínez</h5>
+                                    <small>
+                                        Especialista en Limpieza de
+                                        Muebles</small
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="team-item">
+                            <div class="position-relative overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="team-text">
+                                <div class="bg-light">
+                                    <h5 class="fw-bold mb-0">Carlos López</h5>
+                                    <small>Técnico en Alfombras</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="team-item">
+                            <div class="position-relative overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="team-text">
+                                <div class="bg-light">
+                                    <h5 class="fw-bold mb-0">
+                                        Laura Fernández
+                                    </h5>
+                                    <small
+                                        >Consultora de Cuidado de
+                                        Textiles</small
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="team-item">
+                            <div class="position-relative overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-4.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="team-text">
+                                <div class="bg-light">
+                                    <h5 class="fw-bold mb-0">Miguel Gómez</h5>
+                                    <small>Coordinador de Servicios</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <!-- Booking Start -->
+        <div class="container-fluid my-5 px-0">
+            <div class="video wow fadeInUp" data-wow-delay="0.1s">
+                <button
+                    type="button"
+                    class="btn-play"
+                    data-bs-toggle="modal"
+                    data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                    data-bs-target="#videoModal"
+                >
+                    <span></span>
+                </button>
+
+                <div
+                    class="modal fade"
+                    id="videoModal"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                >
+                    <div class="modal-dialog">
+                        <div class="modal-content rounded-0">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">
+                                    Youtube Video
+                                </h5>
+                                <button
+                                    type="button"
+                                    class="btn-close"
+                                    data-bs-dismiss="modal"
+                                    aria-label="Close"
+                                ></button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- 16:9 aspect ratio -->
+                                <div class="ratio ratio-16x9">
+                                    <iframe
+                                        class="embed-responsive-item"
+                                        src=""
+                                        id="video"
+                                        allowfullscreen
+                                        allowscriptaccess="always"
+                                        allow="autoplay"
+                                    ></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h1 class="text-white mb-4">
+                    Enfrentando lo Inesperado: Manual de Respuesta a Emergencias
+                </h1>
+                <h3 class="text-white mb-0">24 horas, 7 días a la semana</h3>
+            </div>
+            <div
+                class="container position-relative wow fadeInUp"
+                data-wow-delay="0.1s"
+                style="margin-top: -6rem"
+            >
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="bg-light text-center p-5">
+                            <h1 class="mb-4">Reservar un servicio</h1>
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-12 col-sm-6">
+                                        <input
+                                            type="text"
+                                            class="form-control border-0"
+                                            placeholder="Your Name"
+                                            style="height: 55px"
+                                        />
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <input
+                                            type="email"
+                                            class="form-control border-0"
+                                            placeholder="Your Email"
+                                            style="height: 55px"
+                                            id="email"
+                                        />
+                                        <div
+                                            id="result"
+                                            style="color: red; font-size: 12px"
+                                        ></div>
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea
+                                            class="form-control border-0"
+                                            placeholder="Servicio"
+                                        ></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button
+                                            class="btn btn-primary w-100 py-3"
+                                            type="submit"
+                                            id="submit"
+                                            onclick="sendForm()"
+                                        >
+                                            Reserve ahora
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Booking End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">LimpiezaExprs</h4>
+                        <p class="mb-2">
+                            En nuestra tintorería de muebles en México, estamos
+                            comprometidos con ofrecer un servicio excepcional de
+                            limpieza en seco de alfombras y muebles.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Dirección</h4>
+                        <p class="mb-2">
+                            <i class="fa fa-map-marker-alt me-3"></i>Albert
+                            Camus 70, Jardines Vallarta, 45027 Zapopan, Jal.,
+                            México
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-3"></i>+523314837666
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope me-3"></i
+                            >limpieza_expr@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Horarios</h4>
+                        <h6 class="text-light">Lunes - Viernes:</h6>
+                        <p class="mb-4">09:00 AM - 09:00 PM</p>
+                        <h6 class="text-light">Sábado - Domingo:</h6>
+                        <p class="mb-0">09:00 AM - 12:00 PM</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Enlaces</h4>
+                        <a class="btn btn-link" href="index.html">Inicio</a>
+                        <a class="btn btn-link" href="about.html"
+                            >Sobre Nosotros</a
+                        >
+                        <a class="btn btn-link" href="contact.html"
+                            >Contáctanos</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Términos</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Política de Privacidad</a
+                        >
+                    </div>
+                    <!-- <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Boletín</h4>
+                    <p>
+                        Dolor amet sit justo amet elitr clita ipsum elitr
+                        est.
+                    </p>
+                    <div
+                        class="position-relative mx-auto"
+                        style="max-width: 400px"
+                    >
+                        <input
+                            class="form-control border-0 w-100 py-3 ps-4 pe-5"
+                            type="text"
+                            placeholder="Tu correo electrónico"
+                        />
+                        <button
+                            type="button"
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+                        >
+                            Suscribirse
+                        </button>
+                    </div>
+                </div> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Consentimiento de Cookies</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Este sitio web utiliza cookies para proporcionarte una
+                    experiencia de navegación superior y más relevante.
+                    <a href="#">Más información...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Aceptar</button>
+                <button class="cookie-button" id="declineBtn">Rechazar</button>
+            </div>
+        </div>
+
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
